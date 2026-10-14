@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Froralcafe — Lebih dari Sekadar Tempat Menikmati Kopi</title>
+  <meta name="description" content="Froralcafe di Bintaro, Jakarta Selatan: kopi, non-coffee, dan camilan dengan suasana hangat. Lihat menu & harga, fasilitas, lokasi, dan reservasi via WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Froralcafe — Lebih dari Sekadar Tempat Menikmati Kopi">
+  <meta property="og:description" content="Kopi, non-coffee, dan camilan di Bintaro, Jakarta Selatan. Buka 09.30–21.00 WIB. Reservasi via WhatsApp.">
+  <meta property="og:image" content="assets/img/interior.jpg">
+  <meta property="og:locale" content="id_ID">
+  <meta name="theme-color" content="#4A2C1D">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#menu">Langsung ke menu</a>
+  <header class="navbar" id="beranda-nav">
+    <div class="container nav-inner">
+      <a href="#beranda" class="logo">Froral<span>cafe</span></a>
+      <button class="burger" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <nav id="nav-links" class="nav-links" aria-label="Navigasi utama">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#menu">Menu</a>
+        <a href="#fasilitas">Fasilitas</a>
+        <a href="#kontak">Kontak</a>
+        <a class="btn btn-sm wa-link" href="#" target="_blank" rel="noopener">Reservasi</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="beranda" class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Froralcafe · Bintaro</p>
+        <h1>Lebih dari Sekadar Tempat Menikmati Kopi.</h1>
+        <p class="hero-sub">Tempat hangat untuk ngopi, melepas penat, dan berkumpul bersama orang-orang terdekat.</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn">Lihat Menu</a>
+          <a href="#" class="btn btn-outline wa-link" target="_blank" rel="noopener">Reservasi</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">Tentang Kami</p>
+          <h2>Lebih dari Sekadar Tempat Menikmati Kopi.</h2>
+          <p>Kami hadir sebagai tempat untuk menikmati kopi, melepas penat, dan menghabiskan waktu bersama orang-orang terdekat. Dengan suasana yang hangat, pelayanan ramah, serta pilihan menu berkualitas, kami ingin menjadikan setiap kunjungan sebagai pengalaman yang berkesan.</p>
+        </div>
+        <picture>
+          <source srcset="assets/img/interior.webp" type="image/webp">
+          <img src="assets/img/interior.jpg" alt="Interior Froralcafe dengan meja dan kursi kayu serta dinding hijau mint" width="510" height="510" loading="lazy" class="rounded">
+        </picture>
+      </div>
+    </section>
+
+    <section id="menu" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow center">Menu Kami</p>
+        <h2 class="center">Pilihan Rasa untuk Setiap Suasana.</h2>
+        <p class="center lead">Temukan berbagai pilihan minuman dan makanan yang disiapkan dengan bahan berkualitas.</p>
+        <div class="tabs" role="tablist" aria-label="Kategori menu" id="menu-tabs"></div>
+        <div id="menu-panels"></div>
+        <noscript><p class="center">Aktifkan JavaScript untuk melihat daftar menu.</p></noscript>
+      </div>
+    </section>
+
+    <section id="fasilitas" class="section">
+      <div class="container">
+        <p class="eyebrow center">Fasilitas</p>
+        <h2 class="center">Tempat Nyaman untuk Setiap Aktivitas.</h2>
+        <p class="center lead">Baik untuk bekerja, belajar, berkumpul bersama teman, maupun sekadar menikmati waktu sendiri. Kami menyediakan suasana yang mendukung kenyamanan setiap pengunjung.</p>
+        <ul class="features">
+          <li><span class="ico" aria-hidden="true">🌿</span><h3>Indoor &amp; Outdoor</h3><p>Area indoor dan outdoor.</p></li>
+          <li><span class="ico" aria-hidden="true">📶</span><h3>Wi-Fi Gratis</h3><p>Internet cepat untuk kerja &amp; belajar.</p></li>
+          <li><span class="ico" aria-hidden="true">🛋️</span><h3>Area Duduk Nyaman</h3><p>Tempat duduk yang nyaman untuk bersantai.</p></li>
+          <li><span class="ico" aria-hidden="true">🔌</span><h3>Stopkontak</h3><p>Untuk kebutuhan perangkat elektronik.</p></li>
+        </ul>
+        <div class="gallery">
+          <a href="assets/img/interior.jpg" class="g-item" data-lightbox><picture><source srcset="assets/img/interior.webp" type="image/webp"><img src="assets/img/interior.jpg" alt="Suasana ruang indoor Froralcafe" loading="lazy" width="510" height="510"></picture></a>
+          <a href="assets/img/drink-menu.jpg" class="g-item" data-lightbox><picture><source srcset="assets/img/drink-menu.webp" type="image/webp"><img src="assets/img/drink-menu.jpg" alt="Daftar menu coffee &amp; drink beserta foto minuman" loading="lazy" width="800" height="1131"></picture></a>
+          <a href="assets/img/snack-menu.jpg" class="g-item" data-lightbox><picture><source srcset="assets/img/snack-menu.webp" type="image/webp"><img src="assets/img/snack-menu.jpg" alt="Daftar snack menu dengan foto platter, spaghetti, kentang goreng, dan lainnya" loading="lazy" width="900" height="1272"></picture></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="section section-alt">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">Hubungi Kami</p>
+          <h2>Kami Senang Menyambut Kehadiranmu!</h2>
+          <p>Punya pertanyaan atau ingin mengetahui informasi lebih lanjut? Jangan ragu untuk menghubungi kami melalui kontak yang tersedia. Kami siap membantu memberikan pengalaman terbaik untukmu.</p>
+          <ul class="contact">
+            <li><strong>Alamat:</strong> Jl. Mawar 2 No. 6F, Bintaro, Pesanggrahan, Jakarta Selatan 12330</li>
+            <li><strong>Telepon:</strong> <a href="tel:+628129101829">0812 9101 829</a></li>
+            <li><strong>Instagram:</strong> <a href="https://instagram.com/babatricoffeeeatery" target="_blank" rel="noopener">@babatricoffeeeatery</a></li>
+            <li><strong>Jam Operasional:</strong> 09.30–21.00 WIB</li>
+          </ul>
+          <a href="#" class="btn wa-link" target="_blank" rel="noopener">Reservasi via WhatsApp</a>
+          <div class="delivery" hidden>
+            <p>Tersedia di:</p>
+            <a href="#" class="btn btn-outline">GoFood</a>
+            <a href="#" class="btn btn-outline">GrabFood</a>
+            <a href="#" class="btn btn-outline">ShopeeFood</a>
+          </div>
+        </div>
+        <div class="map">
+          <iframe title="Lokasi Froralcafe di Google Maps" src="https://www.google.com/maps?q=Jl.%20Mawar%202%20No.%206F%2C%20Bintaro%2C%20Pesanggrahan%2C%20Jakarta%20Selatan%2012330&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><a href="#beranda" class="logo">Froral<span>cafe</span></a><p>Buka setiap hari 09.30–21.00 WIB</p></div>
+      <div class="footer-links">
+        <a href="https://instagram.com/babatricoffeeeatery" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" class="wa-link" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <p class="copy">© <span id="year">2026</span> Froralcafe. Hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <a href="#" class="wa-float wa-link" target="_blank" rel="noopener" aria-label="Reservasi via WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-4.3-3.7c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.6 14.6 0 0 0 5.6 5c2.1.9 2.9 1 4 .8a3.4 3.4 0 0 0 2.2-1.6 2.8 2.8 0 0 0 .2-1.6c-.1-.1-.3-.2-.6-.4z"/></svg>
+  </a>
+
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Pratinjau foto">
+    <button class="lb-close" aria-label="Tutup">×</button>
+    <img alt="">
+  </div>
+
+  <script src="js/menu.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
