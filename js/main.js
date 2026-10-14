@@ -10,9 +10,10 @@
   burger.addEventListener('click', function () {
     var open = links.classList.toggle('open');
     burger.setAttribute('aria-expanded', String(open));
+    burger.setAttribute('aria-label', open ? 'Tutup menu navigasi' : 'Buka menu navigasi');
   });
   links.addEventListener('click', function (e) {
-    if (e.target.tagName === 'A') { links.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); }
+    if (e.target.tagName === 'A') { links.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); burger.setAttribute('aria-label', 'Buka menu navigasi'); }
   });
 
   // Menu tabs
